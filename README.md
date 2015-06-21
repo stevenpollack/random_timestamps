@@ -9,6 +9,7 @@ indicates that `rand1.js` produces a uniform spacing, whereas `rand2.js`
 has some weird tail behaviour...
 
 ### Graphical Analysis:
+![](plots/densities.png)
 ![](plots/ecdf.png)
 
 ### Kolmogorov-Smirnoff Test:
