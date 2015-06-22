@@ -5,7 +5,7 @@ var regularInterval = 1000;
 var maxRandomInterval = 2000;
 var postponed = [];
 
-var startTime = now = Date.now();
+var startTime = now = 10000000; Date.now();
 
 for (i=0; i<runs; i++) {
 

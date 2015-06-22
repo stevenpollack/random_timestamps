@@ -3,7 +3,7 @@
 var runs = process.argv[2];
 var maxInterval = 2000;
 
-var startTime = now = Date.now();
+var startTime = now = 10000000; //Date.now();
 
 for (i=0; i<runs; i++) {
     var interval = Math.floor( Math.random() * maxInterval + 1 );
